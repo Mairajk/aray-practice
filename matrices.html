@@ -15,18 +15,30 @@
 <fieldset> <legend> Input values of first matix </legend>
     <input type="number" id="1.1">
     <input type="number" id="1.2">
-     <br>
     <input type="number" id="1.3">
+     <br>
     <input type="number" id="1.4">
+    <input type="number" id="1.5">
+    <input type="number" id="1.6">
+    <br>
+    <input type="number" id="1.7">
+    <input type="number" id="1.8">
+    <input type="number" id="1.9">
 </fieldset>
 <br>
 <br>
 <fieldset> <legend> Input values of second matix </legend>
     <input type="number" id="2.1">
     <input type="number" id="2.2">
-     <br>
     <input type="number" id="2.3">
+     <br>
     <input type="number" id="2.4">
+    <input type="number" id="2.5">
+    <input type="number" id="2.6">
+    <br>
+    <input type="number" id="2.7">
+    <input type="number" id="2.8">
+    <input type="number" id="2.9">
 </fieldset>
 <br><br>
 <button type="submit"> Calculate </button>
@@ -37,7 +49,16 @@
         <td id=" result1"></td>
         <td id="result2"></td>
         <td id="result3"></td>
+    </tr>
+    <tr>
         <td id="result4"></td>
+        <td id="result5"></td>
+        <td id="result6"></td>
+    </tr>
+    <tr>
+        <td id="result7"></td>
+        <td id="result8"></td>
+        <td id="result9"></td>
     </tr>
 </table>
 
@@ -45,22 +66,37 @@
 <script>
     function func() {
 
-        let matrix1 = [ [ input1_1 , input1_2 ] , [ input1_3 , input1_4 ] ];
+        let matrix1 = [ [ input1_1 , input1_2 ] , [ input1_3 , input1_4 ] , [ in] ];
         
         let input1_1 = document.querySelector("#1.1").value ;
         let input1_2 = document.querySelector("#1.2").value ;
         let input1_3 = document.querySelector("#1.3").value ;
         let input1_4 = document.querySelector("#1.4").value ;
+        let input1_5 = document.querySelector("#1.5").value ;
+        let input1_6 = document.querySelector("#1.6").value ;
+        let input1_7 = document.querySelector("#1.7").value ;
+        let input1_8 = document.querySelector("#1.8").value ;
+        let input1_9 = document.querySelector("#1.9").value ;
         
         let input2_1 = document.querySelector("#2.1").value ;
         let input2_2 = document.querySelector("#2.2").value ;
         let input2_3 = document.querySelector("#2.3").value ;
-        let input2_4 = document.querySelector("#2.3").value ;
+        let input2_4 = document.querySelector("#2.4").value ;
+        let input2_5 = document.querySelector("#2.5").value ;
+        let input2_6 = document.querySelector("#2.6").value ;
+        let input2_7 = document.querySelector("#2.7").value ;
+        let input2_8 = document.querySelector("#2.8").value ;
+        let input2_9 = document.querySelector("#2.9").value ;
 
         let result1 = document.querySelector("#result1").innerHTML ;
-        let result2 = document.querySelector("#result1").innerHTML ;
-        let result3 = document.querySelector("#result1").innerHTML ;
-        let result4 = document.querySelector("#result1").innerHTML ;
+        let result2 = document.querySelector("#result2").innerHTML ;
+        let result3 = document.querySelector("#result3").innerHTML ;
+        let result4 = document.querySelector("#result4").innerHTML ;
+        let result5 = document.querySelector("#result5").innerHTML ;
+        let result6 = document.querySelector("#result6").innerHTML ;
+        let result7 = document.querySelector("#result7").innerHTML ;
+        let result8 = document.querySelector("#result8").innerHTML ;
+        let result9 = document.querySelector("#result9").innerHTML ;
 
 
 
